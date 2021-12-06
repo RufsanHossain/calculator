@@ -92,6 +92,9 @@ class Calculator {
             case 'exp':
                 computation = Math.exp(prev)
                 break
+            case 'π':
+                computation = Math.PI * prev
+                break
             default:
                 return
         }
